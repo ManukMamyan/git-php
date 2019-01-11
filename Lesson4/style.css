@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+a {
+    width: 250px;
+    height: 150px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color, box-shadow, 0.5s;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    border-radius: 5px;
+}
+
+a:hover {
+    border-color: gold;
+    box-shadow: 0 0 20px rgba(229, 187, 13, 1);
+}
+
+/*Для HW 3*/
+body {
+    position: relative;
+}
+
+.wrap {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.gal-images {
+    width: 250px;
+    height: 150px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color, box-shadow, 0.5s;
+}
+
+.gal-images:hover {
+    border-color: gold;
+    box-shadow: 0 0 20px rgba(229, 187, 13, 1);
+}
+
+#modal_form {
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: absolute;
+    top: 5%;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 5px 5px 2px 5px;
+}
+
+#overlay {
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+
+#nav-btn {
+    position: absolute;
+    top: 800px;
+    left: 45%;
+    background-color: #3d3d3d47;
+    border-radius: 25px;
+}
+
+#nav-btn > img {
+    margin: 5px 10px;
+    cursor: pointer;
+    transition: filter, 0.3s;
+}
+
+#nav-btn > img:hover {
+    filter: drop-shadow(0px 0px 3px gold);
+}
+
+#nav-btn > img:nth-child(1) {
+    margin-right: 70px;
+}
+
+#gallery_img > img {
+    max-width: 1200px;
+}
