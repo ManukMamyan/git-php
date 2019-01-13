@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+.logo {
+    text-align: center;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.gal-images {
+    width: 250px;
+    height: 150px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color, box-shadow, 0.5s;
+}
+
+.gal-images:hover {
+    border-color: indigo;
+    box-shadow: 0 0 20px #4b0082;
+}
+
+/*_______________OpenImg Page_______________*/
+
+.images-wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 3px white solid;
+    border-radius: 5px;
+}
+
+.images-wrap > img {
+    width: 1100px;
+    border-radius: 5px;
+}
+
+.images-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.next-btn,
+.back-btn {
+    width: 82px;
+    height: 36px;
+    margin-top: 8px;
+    display: block;
+    padding: 9px;
+    box-sizing: border-box;
+    background: #4b0082b3;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color, 0.3s;
+}
+
+.back-btn {
+    margin-right: 190px;
+}
+
+.next-btn {
+    margin-left: 190px;
+}
+
+.home-btn {
+    display: block;
+    padding: 9px;
+    background: #4b0082b3;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color, 0.3s;
+}
+
+.next-btn:hover,
+.back-btn:hover,
+.home-btn:hover {
+    background-color: indigo;
+    box-shadow: 0 0 10px indigo;
+}
+
+.images-info > div {
+    font-size: 16px;
+    padding: 8px;
+    color: indigo;
+    max-width: 150px;
+    margin-right: 40px;
+}
+
+.images-info > div:nth-last-child(2) {
+    margin-right: 0;
+}
+
+.images-info > div > p{
+    text-transform: uppercase;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: gray;
+}
