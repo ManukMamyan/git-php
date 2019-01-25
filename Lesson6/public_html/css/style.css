@@ -1,0 +1,85 @@
+/* основной CSS файл */
+
+.btn-operation {
+    margin: 5px 5px 5px 4px;
+}
+
+.products-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 265px;
+    padding: 6px;
+    border: 1px solid #626b7238;
+    border-radius: .25rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.product-name {
+    width: inherit;
+    margin-bottom: 0;
+    height: 3em;
+    overflow: hidden;
+    border-top: 1px solid #626b7238;
+}
+
+.product-price {
+    width: inherit;
+    margin-bottom: 0;
+    height: 1.5em;
+    overflow: hidden;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.product-img {
+    height: 250px;
+    transition: opacity 0.3s;
+}
+
+.product-btn {
+    margin: 15px 0 0 28.5%;
+}
+
+.product-img:hover {
+    opacity: 0.8;
+}
+
+.singe-product-wrap {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #9c9b9b75;
+    box-shadow: 0 0 10px #3e3e3e4f;
+    border-radius: .25rem;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+}
+
+.card-img-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.cart-price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
