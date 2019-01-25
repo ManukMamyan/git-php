@@ -1,0 +1,127 @@
+/* основной CSS файл */
+
+.products-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 265px;
+    padding: 6px;
+    border: 1px solid #626b7238;
+    border-radius: .25rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.product-name {
+    width: inherit;
+    margin-bottom: 0;
+    height: 3em;
+    overflow: hidden;
+    border-top: 1px solid #626b7238;
+}
+
+.product-price {
+    width: inherit;
+    margin-bottom: 0;
+    height: 1.5em;
+    overflow: hidden;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.product-img {
+    height: 250px;
+    transition: opacity 0.3s;
+}
+
+.product-img:hover {
+    opacity: 0.8;
+}
+
+.product-btn {
+    width: 100%;
+    margin: 10px 0 5px 0;
+}
+
+.singe-product-wrap {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #9c9b9b75;
+    box-shadow: 0 0 10px #3e3e3e4f;
+    border-radius: .25rem;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+}
+
+.card-img-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.cart-price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.profile-wrap {
+    padding: 15px;
+    border: 1px solid #9c9b9b75;
+    box-shadow: 0 0 5px #3e3e3e29;
+    border-radius: .25rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    margin: 25px 25px 25px 50px;
+    padding: 5px;
+    box-sizing: content-box;
+    outline: 1px solid #9c9b9b75;
+}
+
+.profile-name {
+    margin-top: 20px;
+}
+
+.profile-name > h2 > span {
+    font-weight: bold;
+}
+
+.profile-info li {
+    list-style: none;
+}
+
+.profile-info > li > span {
+    font-weight: bold;
+}
+
+
+.cart-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #9c9b9b75;
+    box-shadow: 0 0 5px #3e3e3e29;
+    border-radius: .25rem;
+}
+
+.cart-wrap > img {
+    width: 250px;
+    height: 250px;
+}
