@@ -1,0 +1,18 @@
+/* основной CSS файл */
+
+.blockquote {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+
+.card-images-wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
